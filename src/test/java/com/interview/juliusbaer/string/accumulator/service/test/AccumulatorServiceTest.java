@@ -22,7 +22,7 @@ public class AccumulatorServiceTest {
     }
 
     @Test(expected = RuntimeException.class)
-    public void testMultiNegativeInput() {
+    public void testNegativeInput() {
         Assert.assertEquals(6, AccumulatorService.add("//*|%\n1*2%-3"));
     }
 

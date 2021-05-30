@@ -26,8 +26,7 @@ public class AccumulatorService {
     private static String[] getParsedInputElements(String numbers) {
         String delimiter = DEFAULT_DELIMITER;
 
-        if (numbers.startsWith("//"))  {
-
+        if (numbers.startsWith("//")) {
             int firstEnter = numbers.indexOf('\n');
 
             delimiter = (numbers.substring(2, firstEnter) + "|\\\\n")
