@@ -1,6 +1,4 @@
-package com.interview.juliusbaer.string.accumulator.service;
-
-import com.interview.juliusbaer.string.accumulator.service.service.AccumulatorService;
+package com.interview.juliusbaer.string.accumulator;
 
 public class Main {
 

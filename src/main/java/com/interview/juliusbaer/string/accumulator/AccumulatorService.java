@@ -1,4 +1,4 @@
-package com.interview.juliusbaer.string.accumulator.service.service;
+package com.interview.juliusbaer.string.accumulator;
 
 import java.util.Arrays;
 import java.util.List;
